@@ -12,6 +12,7 @@ header {
 
 .title {
 	grid-column: 3 / 5;
+	padding: 10px;
 }
 
 .nav { 
@@ -130,6 +131,7 @@ a:hover {
 	color: pink;
 	text-decoration: underline;
 }
+
 footer {
 	display: grid;
 	grid-template-columns: repeat(5,1fr); 
@@ -201,4 +203,347 @@ h3 {
 	grid-column: 6 / 8;
 	grid-row: 5;
 	padding: 250px 100px;
+}
+
+@media only screen and (max-width: 900px) {
+	header {
+		display: grid;
+		grid-template-columns: 1fr;
+		gap: 10px;
+		padding: 10px;
+	}
+	
+	footer {
+		display: grid;
+		grid-template-columns: 1fr; 
+		gap: 10px;
+		padding: 10px;
+		justify-content: space-around;
+	}
+	
+	.main {
+		display: grid;
+		grid-template-columns: 1fr; 
+		gap: 10px;
+		padding: 10px;
+		justify-content: space-around;
+	}
+	
+	.title {
+		grid-column: 1;
+	}
+
+	.nav { 
+		font-size: 30px;
+		color: white;
+		font-family: 'Roboto Mono', monospace;
+		font-family: 'VT323', monospace;
+		grid-column: 1;
+		grid-row: 2;
+		justify-content: space-around;
+	}
+	
+	.maininfo {
+		font-size: 30px;
+		color: white;
+		font-family: 'Roboto Mono', monospace;
+		font-family: 'VT323', monospace;
+		grid-column: 1;
+		grid-row: 1;
+	}
+	
+	.toby {
+		font-size: 10px;
+		color: red;
+		font-family: 'Roboto Mono', monospace;
+		font-family: 'VT323', monospace;
+		grid-column: 1;
+		grid-row: 2;
+		padding: 150px 100px;
+	}
+
+	.gameplay {
+		font-size: 30px;
+		color: white;
+		font-family: 'Roboto Mono', monospace;
+		font-family: 'VT323', monospace;
+		grid-column: 1;
+		grid-row: 3;
+	}
+	
+	.flowey {
+		grid-column: 1;
+		grid-row: 4;
+		padding: 0px 120px;
+	}
+		
+	.plot {
+		font-size: 30px;
+		color: white;
+		font-family: 'Roboto Mono', monospace;
+		font-family: 'VT323', monospace;
+		grid-column: 1;
+		grid-row: 5;
+	}
+		
+	.evil {
+		grid-column: 1;
+		grid-row: 6;
+		padding: 0px 120px;
+	}
+	.dev {
+		font-size: 30px;
+		color: white;
+		font-family: 'Roboto Mono', monospace;
+		font-family: 'VT323', monospace;
+		grid-column: 1;
+		grid-row: 7;
+	}
+	.dog {
+		grid-column: 1;
+		grid-row: 8;
+		padding: 0px 120px;
+	}
+
+	.future {
+		font-size: 30px;
+		color: white;
+		font-family: 'Roboto Mono', monospace;
+		font-family: 'VT323', monospace;
+		grid-column: 1;
+		grid-row: 9;
+	}
+
+	.froggit {
+		grid-column: 1;
+		grid-row: 10;
+		padding: 0px 120px;
+	}
+	.trailer { 	
+		font-size: 30px;
+		color: white;
+		font-family: 'Roboto Mono', monospace;
+		font-family: 'VT323', monospace;
+		grid-column:  1;
+		grid-row: 11;
+	}
+
+	.gamevideo { 	
+		font-size: 30px;
+		color: white;
+		font-family: 'Roboto Mono', monospace;
+		font-family: 'VT323', monospace;
+		grid-column:  1;
+		grid-row: 12;
+	}
+
+	.bib { 	
+		font-size: 25px;
+		color: white;
+		font-family: 'Roboto Mono', monospace;
+		font-family: 'VT323', monospace;
+		grid-column:  1;
+		grid-row: 13;
+	}
+	
+	.myinfo {
+		font-size: 20px;
+		color: white;
+		font-family: 'Roboto Mono', monospace;
+		font-family: 'VT323', monospace;
+		grid-column: 1;
+	}
+	
+	.map {
+		grid-column: 1;
+		grid-row: 2;
+	}
+	
+	.old {
+		font-size: 20px;
+		color: white;
+		font-family: 'Roboto Mono', monospace;
+		font-family: 'VT323', monospace;
+		grid-column: 1;
+		grid-row: 3;
+	}
+
+	.koniec {
+		font-size: 20px;
+		color: white;
+		font-family: 'Roboto Mono', monospace;
+		font-family: 'VT323', monospace;
+		grid-column: 1;
+		grid-row: 4;
+		text-align: center;
+	}
+}
+
+@media only screen and (max-width: 500) {
+	header {
+		display: grid;
+		grid-template-columns: 75px 1fr 75px;
+
+	}
+	
+	footer {
+		display: grid;
+		grid-template-columns: 75px 1fr 75px; 
+
+	}
+	
+	.main {
+		display: grid;
+		grid-template-columns: 75px 1fr 75px; 
+
+	}
+	
+	.title {
+		grid-column: 1;
+	}
+
+	.nav { 
+		font-size: 20px;
+		color: white;
+		font-family: 'Roboto Mono', monospace;
+		font-family: 'VT323', monospace;
+		grid-column: 2;
+		grid-row: 2;
+		justify-content: space-around;
+	}
+	
+	.maininfo {
+		font-size: 20px;
+		color: white;
+		font-family: 'Roboto Mono', monospace;
+		font-family: 'VT323', monospace;
+		grid-column: 2;
+		grid-row: 1;
+	}
+	
+	.toby {
+		font-size: 10px;
+		color: red;
+		font-family: 'Roboto Mono', monospace;
+		font-family: 'VT323', monospace;
+		grid-column: 1;
+		grid-row: 2;
+		padding: 150px 100px;
+	}
+
+	.gameplay {
+		font-size: 20px;
+		color: white;
+		font-family: 'Roboto Mono', monospace;
+		font-family: 'VT323', monospace;
+		grid-column: 2;
+		grid-row: 3;
+	}
+	
+	.flowey {
+		grid-column: 2;
+		grid-row: 4;
+		padding: 0px 120px;
+	}
+		
+	.plot {
+		font-size: 20px;
+		color: white;
+		font-family: 'Roboto Mono', monospace;
+		font-family: 'VT323', monospace;
+		grid-column: 2;
+		grid-row: 5;
+	}
+		
+	.evil {
+		grid-column: 2;
+		grid-row: 6;
+		padding: 0px 120px;
+	}
+	.dev {
+		font-size: 20px;
+		color: white;
+		font-family: 'Roboto Mono', monospace;
+		font-family: 'VT323', monospace;
+		grid-column: 1;
+		grid-row: 7;
+	}
+	.dog {
+		grid-column: 2;
+		grid-row: 8;
+		padding: 0px 120px;
+	}
+
+	.future {
+		font-size: 20px;
+		color: white;
+		font-family: 'Roboto Mono', monospace;
+		font-family: 'VT323', monospace;
+		grid-column: 2;
+		grid-row: 9;
+	}
+
+	.froggit {
+		grid-column: 1;
+		grid-row: 10;
+		padding: 0px 120px;
+	}
+	.trailer { 	
+		font-size: 20px;
+		color: white;
+		font-family: 'Roboto Mono', monospace;
+		font-family: 'VT323', monospace;
+		grid-column:  2;
+		grid-row: 11;
+	}
+
+	.gamevideo { 	
+		font-size: 20px;
+		color: white;
+		font-family: 'Roboto Mono', monospace;
+		font-family: 'VT323', monospace;
+		grid-column:  2;
+		grid-row: 12;
+	}
+
+	.bib { 	
+		font-size: 20px;
+		color: white;
+		font-family: 'Roboto Mono', monospace;
+		font-family: 'VT323', monospace;
+		grid-column:  2;
+		grid-row: 13;
+	}
+	
+	.myinfo {
+		font-size: 15px;
+		color: white;
+		font-family: 'Roboto Mono', monospace;
+		font-family: 'VT323', monospace;
+		grid-column: 2;
+	}
+	
+	.map {
+		grid-column: 2;
+		grid-row: 2;
+	}
+	
+	.old {
+		font-size: 15px;
+		color: white;
+		font-family: 'Roboto Mono', monospace;
+		font-family: 'VT323', monospace;
+		grid-column: 2;
+		grid-row: 3;
+	}
+
+	.koniec {
+		font-size: 15px;
+		color: white;
+		font-family: 'Roboto Mono', monospace;
+		font-family: 'VT323', monospace;
+		grid-column: 2;
+		grid-row: 4;
+		text-align: center;
+	}
 }
