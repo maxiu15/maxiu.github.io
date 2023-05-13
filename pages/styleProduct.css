@@ -1,0 +1,721 @@
+body {background-color: rgb(174, 133, 85);
+    font-family: 'Oswald', sans-serif;}
+@media only screen and (min-width: 20em) {
+    img {
+        margin: 10px;
+        padding: 5px;
+        width: 300px;
+        border: 2px solid black;
+        border-radius: 5px;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    header {background-color: rgb(194, 149, 85);
+        display: grid;
+    }
+    .name {
+        display: grid;
+        grid-template-columns: auto auto ;
+    }
+    .nameOne{
+        grid-column: 1;
+        font-size: 75px;
+        text-align: center;
+    }
+    .nameTwo{
+        grid-column: 1;
+        font-size: 75px;
+        text-align: center;
+    }
+    .logo {
+        grid-row: 2;
+        width: 150px;
+        grid-column: 1;
+        padding-left: 150px ;
+        border: none;
+        height: auto;
+    }
+    .dropbtn { 
+        background-color: #55834a;
+        color: black;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+    }
+    .burgerNav{
+    width: 30px;
+    height: 30px;
+    border: none;
+    margin: 0px;
+    }
+    
+    .dropdown {
+    grid-row: 1;
+    position: relative;
+    display: inline-block;
+    }
+    
+    .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    }
+    
+    .dropdown-content a {
+    color: #55834a;
+    background-color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    }
+    
+    .dropdown-content a:hover {background-color: #f1f1f1}
+    
+    .dropdown:hover .dropdown-content {
+    display: block;
+    }
+    
+    .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+    }
+nav {
+    display: none;
+    grid-template-columns: auto 200px 200px 200px auto;
+    padding: 10px;
+}
+
+    .barOne{
+        grid-column: 2;
+        font-size: 30px;
+        text-align: center;
+        border: 2px solid black;
+        border-radius: 5px;
+        background-color: #55834a;
+        height: 45px;
+    }
+
+    .barTwo{
+        grid-column: 3;
+        font-size: 30px;
+        text-align: center;
+        border: 2px solid black;
+        border-radius: 5px;
+        background-color: #55834a;
+        height: 45px;
+    }
+
+    .barThree{
+        grid-column: 4;
+        font-size: 30px;
+        text-align: center;
+        border: 2px solid black;
+        border-radius: 5px;
+        background-color: #55834a;
+        height: 45px;
+    }
+
+    main{
+        display: grid;
+        grid-template-columns: auto auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    p{font-size: 30px;}
+
+    .infoText{
+        grid-column: 1;
+    }
+    .beef {
+        grid-column: 1;
+        text-align: center;
+    }
+
+    .burger {
+        grid-column: 1;
+        text-align: center;
+    }
+
+    .chicken {
+        grid-column: 1;
+        text-align: center;
+    }
+
+    .sausage {
+        grid-column: 1;
+        text-align: center;
+    }
+
+    .mac {
+        grid-column: 1;
+        text-align: center;
+    }
+
+    .pizza {
+        grid-column: 1;
+        text-align: center;
+    }
+
+    .soup {
+        grid-column: 1;
+        text-align: center;
+    }
+
+    .spaghetti {
+        grid-column: 1;
+        text-align: center;
+    }
+
+    .bacon {
+        grid-column: 1;
+        text-align: center;
+    }
+
+    footer{
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .infoFooter{
+        grid-column: 1;
+        text-align: center;
+    }
+    .iconYT {
+        grid-column: 1;
+        text-align: center;
+    }
+    .iconIN {
+        grid-column: 1;
+        text-align: center    
+    }
+    .iconFB {
+        grid-column: 1;
+        text-align: center    
+    }
+    p {
+        font-size: 31px;
+        padding: 5px;
+        background-color: #55834a;
+        border: 2px solid black;
+        border-radius: 5px;
+    }
+
+    .button {
+        font-family: 'Oswald', sans-serif;
+        background-color: #55834a;
+        font-size: 1em;
+        padding: 5px;
+        color: black;
+        border: 2px solid black;
+        border-radius: 5px;
+        text-decoration: none;
+        cursor: pointer;
+        transition: all 0.3s ease-out;
+        }
+    .overlay {
+        font-family: 'Oswald', sans-serif;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: rgba(0, 0, 0, 0.7);
+        transition: opacity 500ms;
+        visibility: hidden;
+        opacity: 0;
+        }
+    .overlay:target {
+    visibility: visible;
+    opacity: 1;
+    }
+    .popup {
+        margin: 70px auto;
+        padding: 20px;
+        background: #55834a;
+        border-radius: 5px;
+        width: 30%;
+        position: relative;
+        }
+    .popup h2 {
+        margin-top: 0;
+        color: #333;
+        font-family: Tahoma, Arial, sans-serif;
+        }
+    .popup .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+    }
+    .popup .close:hover {
+    color: rgb(174, 133, 85);
+    }
+    .popup .content {
+    max-height: 30%;
+    overflow: auto;
+    }
+}
+
+@media only screen and (min-width: 48em) {
+    img {
+        margin: 10px;
+        padding: 5px;
+        width: 300px;
+        height: 300px;
+        border: 2px solid black;
+        border-radius: 5px;
+    }
+
+    .dropbtn {
+        display: none;
+    }
+    img {
+        padding: 5px;
+        width: 150px;
+        height: 150px;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    header {background-color: rgb(194, 149, 85);
+        display: grid;
+    }
+    .name {
+        display: grid;
+        grid-template-columns: auto auto auto ;
+    }
+    .nameOne{
+        grid-column: 1;
+        font-size: 75px;
+        text-align: center;
+    }
+    .nameTwo{
+        grid-column: 3;
+        font-size: 75px;
+        text-align: center;
+    }
+    .logo {
+        width: 150px;
+        height: auto;
+        grid-column: 2;
+        grid-row: 1;
+        padding-left: 150px ;
+        border: none;
+    }
+    nav {
+        display: grid;
+        grid-template-columns: auto 200px 200px 200px auto;
+        padding: 10px;
+    }
+
+    .barOne{
+        grid-column: 2;
+        font-size: 30px;
+        text-align: center;
+        border: 2px solid black;
+        border-radius: 5px;
+        background-color: #55834a;
+        height: 45px;
+    }
+
+    .barTwo{
+        grid-column: 3;
+        font-size: 30px;
+        text-align: center;
+        border: 2px solid black;
+        border-radius: 5px;
+        background-color: #55834a;
+        height: 45px;
+    }
+
+    .barThree{
+        grid-column: 4;
+        font-size: 30px;
+        text-align: center;
+        border: 2px solid black;
+        border-radius: 5px;
+        background-color: #55834a;
+        height: 45px;
+    }
+
+    main{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+
+    p{font-size: 30px;}
+
+    .infoText{
+        grid-column: 1/4;
+    }
+    .beef {
+        grid-column: 1;
+        text-align: center;
+    }
+
+    .burger {
+        grid-column: 2;
+        text-align: center;
+    }
+
+    .chicken {
+        grid-column: 3;
+        text-align: center;
+    }
+
+    .sausage {
+        grid-column: 1;
+        text-align: center;
+    }
+
+    .mac {
+        grid-column: 2;
+        text-align: center;
+    }
+
+    .pizza {
+        grid-column: 3;
+        text-align: center;
+    }
+
+    .soup {
+        grid-column: 1;
+        text-align: center;
+    }
+
+    .spaghetti {
+        grid-column: 2;
+        text-align: center;
+    }
+
+    .bacon {
+        grid-column: 3;
+        text-align: center;
+    }
+
+    footer{
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+
+    .infoFooter{
+        grid-column: 2;
+        text-align: center;
+    }
+    .iconYT {
+        grid-column: 2;
+        text-align: center;
+    }
+    .iconIN {
+        grid-column: 2;
+        text-align: center    
+    }
+    .iconFB {
+        grid-column: 2;
+        text-align: center    
+    }
+    p {
+        font-size: 31px;
+        padding: 5px;
+        background-color: #55834a;
+        border: 2px solid black;
+        border-radius: 5px;
+    }
+
+    .button {
+        font-family: 'Oswald', sans-serif;
+        background-color: #55834a;
+        font-size: 1em;
+        padding: 5px;
+        color: black;
+        border: 2px solid black;
+        border-radius: 5px;
+        text-decoration: none;
+        cursor: pointer;
+        transition: all 0.3s ease-out;
+        }
+    .overlay {
+        font-family: 'Oswald', sans-serif;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: rgba(0, 0, 0, 0.7);
+        transition: opacity 500ms;
+        visibility: hidden;
+        opacity: 0;
+        }
+    .overlay:target {
+    visibility: visible;
+    opacity: 1;
+    }
+    .popup {
+        margin: 70px auto;
+        padding: 20px;
+        background: #55834a;
+        border-radius: 5px;
+        width: 30%;
+        position: relative;
+        }
+    .popup h2 {
+        margin-top: 0;
+        color: #333;
+        font-family: Tahoma, Arial, sans-serif;
+        }
+    .popup .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+    }
+    .popup .close:hover {
+    color: rgb(174, 133, 85);
+    }
+    .popup .content {
+    max-height: 30%;
+    overflow: auto;
+    }
+}
+@media only screen and (min-width: 60em) {
+    img {
+        margin: 10px;
+        padding: 5px;
+        width: 300px;
+        height: 300px;
+        border: 2px solid black;
+        border-radius: 5px;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+    header {background-color: rgb(194, 149, 85);
+        display: grid;
+    }
+    .name {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+    }
+    .nameOne{
+        grid-column: 2;
+        font-size: 75px;
+        text-align: right;
+        padding: 20px 50px;
+    }
+    .nameTwo{
+        grid-column: 4;
+        font-size: 75px;
+        text-align: left;
+        padding: 20px 50px;
+    }
+    .logo {
+        grid-row: 1;
+        width: 150px;
+        grid-column: 3;
+    }
+    nav{
+        display: grid;
+        grid-template-columns: auto 300px 300px 300px auto;
+        padding: 10px;
+    }
+
+    .barOne{
+        grid-column: 2;
+        font-size: 40px;
+        text-align: center;
+        border: 2px solid black;
+        border-radius: 5px;
+        background-color: #55834a;
+        height: 60px;
+    }
+
+    .barTwo{
+        grid-column: 3;
+        font-size: 40px;
+        text-align: center;
+        border: 2px solid black;
+        border-radius: 5px;
+        background-color: #55834a;
+        height: 60px;
+    }
+
+    .barThree{
+        grid-column: 4;
+        font-size: 40px;
+        text-align: center;
+        border: 2px solid black;
+        border-radius: 5px;
+        background-color: #55834a;
+        height: 60px;
+    }
+
+    main{
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+        grid-template-rows: auto auto auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    p{font-size: 30px;}
+
+    .infoText{
+        text-align: center;
+        grid-column: 2/5;
+    }
+    .beef {
+        grid-column: 2;
+        text-align: center;
+    }
+
+    .burger {
+        grid-column: 3;
+        text-align: center;
+    }
+
+    .chicken {
+        grid-column: 4;
+        text-align: center;
+    }
+
+    .sausage {
+        grid-column: 2;
+        text-align: center;
+    }
+
+    .mac {
+        grid-column: 3;
+        text-align: center;
+    }
+
+    .pizza {
+        grid-column: 4;
+        text-align: center;
+    }
+
+    .soup {
+        grid-column: 2;
+        text-align: center;
+    }
+
+    .spaghetti {
+        grid-column: 3;
+        text-align: center;
+    }
+
+    .bacon {
+        grid-column: 4;
+        text-align: center;
+    }
+
+    footer{
+        display: grid;
+        grid-template-columns: auto auto auto ;
+    }
+
+    .infoFooter{
+        grid-column: 2;
+        text-align: center;
+    }
+    .iconYT {
+        grid-column: 2;
+        text-align: center;
+    }
+    .iconIN {
+        grid-column: 2;
+        text-align: center    
+    }
+    .iconFB {
+        grid-column: 2;
+        text-align: center    
+    }
+    p {
+        font-size: 31px;
+        padding: 5px;
+        background-color: #55834a;
+        border: 2px solid black;
+        border-radius: 5px;
+    }
+
+    .button {
+        font-family: 'Oswald', sans-serif;
+        background-color: #55834a;
+        font-size: 1em;
+        padding: 5px;
+        color: black;
+        border: 2px solid black;
+        border-radius: 5px;
+        text-decoration: none;
+        cursor: pointer;
+        transition: all 0.3s ease-out;
+        }
+    .overlay {
+        font-family: 'Oswald', sans-serif;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: rgba(0, 0, 0, 0.7);
+        transition: opacity 500ms;
+        visibility: hidden;
+        opacity: 0;
+        }
+    .overlay:target {
+    visibility: visible;
+    opacity: 1;
+    }
+    .popup {
+        margin: 70px auto;
+        padding: 20px;
+        background: #55834a;
+        border-radius: 5px;
+        width: 30%;
+        position: relative;
+        }
+    .popup h2 {
+        margin-top: 0;
+        color: #333;
+        font-family: 'Oswald', sans-serif;
+        }
+    .popup .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+    }
+    .popup .close:hover {
+    color: rgb(174, 133, 85);
+    }
+    .popup .content {
+    max-height: 30%;
+    overflow: auto;
+    }
+}

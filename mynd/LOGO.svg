@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   sodipodi:docname="LOGO.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.6819304"
+     inkscape:cx="195.60857"
+     inkscape:cy="277.06259"
+     inkscape:window-width="2240"
+     inkscape:window-height="1294"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.736009;stroke-opacity:1;paint-order:fill markers stroke"
+       id="rect234"
+       width="55.113827"
+       height="47.764214"
+       x="73.777695"
+       y="67.478775" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.899999;stroke-opacity:1;paint-order:fill markers stroke"
+       id="rect1205"
+       width="6.674068"
+       height="19.577271"
+       x="97.441414"
+       y="45.383675" />
+    <rect
+       style="fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.852091;stroke-opacity:1;paint-order:fill markers stroke"
+       id="rect1207"
+       width="5.7830358"
+       height="6.0066624"
+       x="97.899841"
+       y="45.828609" />
+    <text
+       xml:space="preserve"
+       style="font-size:13.6829px;font-family:monospace;-inkscape-font-specification:monospace;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.242414;stroke-opacity:1;paint-order:fill markers stroke"
+       x="123.06239"
+       y="67.330666"
+       id="text2877"
+       transform="scale(0.82152492,1.2172485)"><tspan
+         sodipodi:role="line"
+         id="tspan2875"
+         style="fill:#000000;fill-opacity:1;stroke-width:0.242414"
+         x="123.06239"
+         y="67.330666">YUMMY</tspan><tspan
+         sodipodi:role="line"
+         style="fill:#000000;fill-opacity:1;stroke-width:0.242414"
+         x="123.06239"
+         y="84.434288"
+         id="tspan3135" /></text>
+  </g>
+</svg>
