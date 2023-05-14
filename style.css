@@ -37,7 +37,6 @@ body {background-color: rgb(174, 133, 85);
           transform: translate3d(85px, 0, 0);
         }
       }
-/
       @media (max-width: 768px) {
         .css-waves {
           height: 40px;
